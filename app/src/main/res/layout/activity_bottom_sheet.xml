@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".BottomSheetActivity">
+
+    <Button
+            android:id="@+id/btn_popupmenu"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:text="Popup menu"
+    />
+
+    <Button
+            android:id="@+id/btn_popupwindow"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/btn_popupmenu"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:text="Popup Window"
+    />
+
+    <Button
+            android:id="@+id/btn_bottom_sheet_dialog_fragment"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/btn_popupwindow"
+            android:layout_centerInParent="true"
+            android:textAllCaps="false"
+            android:text="BottomSheetDialogFragment"
+    />
+
+
+<View
+        android:id="@+id/dummyview"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+/>
+</RelativeLayout>

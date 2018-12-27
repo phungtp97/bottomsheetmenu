@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+
+>
+
+    <item
+            android:id="@+id/action_photo"
+            android:icon="@drawable/ic_edit"
+            android:title="Edit your review"
+            app:showAsAction="always|withText"/>
+    <item
+            android:id="@+id/action_video"
+            android:icon="@drawable/ic_delete"
+            android:title="Delete your review"
+            app:showAsAction="always|withText"/>
+    <item
+            android:id="@+id/action_text"
+            android:icon="@drawable/ic_close"
+            android:title="Cancel"
+            app:showAsAction="always|withText"/>
+</menu>
